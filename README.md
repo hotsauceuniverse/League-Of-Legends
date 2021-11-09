@@ -18,3 +18,5 @@
 ![Varus](https://user-images.githubusercontent.com/92082361/140885437-d8731957-0b14-44d5-9aeb-531b96e9d642.png)
 ![Vayne](https://user-images.githubusercontent.com/92082361/140885438-95e8c504-837c-4d54-9f13-ecb3396418f8.png)
 ![Xayah](https://user-images.githubusercontent.com/92082361/140885442-82e455e1-ad7b-450c-b7e4-d7808c5ef1c4.png)
+![background](https://user-images.githubusercontent.com/92082361/140891261-a64e003c-c643-4be6-8c01-3022badbfdd9.jpg)
+![LOL logo](https://user-images.githubusercontent.com/92082361/140891891-3a625d36-f08f-43b0-86a9-4320d9fe8b25.png)
