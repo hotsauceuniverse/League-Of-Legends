@@ -1,0 +1,78 @@
+body{
+  height: 100vh;
+  background-image: url("https://user-images.githubusercontent.com/92082361/140891261-a64e003c-c643-4be6-8c01-3022badbfdd9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 50px 0;
+}
+
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.container .heroes .hero {
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-sizing: border-box; /*요소의 크기 기준 지정*/
+  background-color: gray;
+  overflow: hidden;
+  transition: 
+    transform 0.5s,
+    background-color 1s;
+}
+
+.container .heroes .hero:hover {
+  transform: skewX(-14deg) scale(1.5);
+  z-index: 1;
+}
+
+.container .heroes .hero .image{
+  width: 140%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 115px;
+  transform: translateX(-16px);
+}
+
+.container .heroes .hero:nth-child(1) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140883289-505d9cc0-549f-44d1-821b-69ebe587bb13.png");}
+.container .heroes .hero:nth-child(2) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885007-d4c6252a-716f-4ad0-b620-a2cb64e43213.png");}
+.container .heroes .hero:nth-child(3) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885407-ccd5d9e5-39d6-4f99-b498-e0f8f397bff7.png");}
+.container .heroes .hero:nth-child(4) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885409-dab2413d-ae6c-4edf-a936-d9f8e26e21a8.png");}
+.container .heroes .hero:nth-child(5) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885412-40e3cb8e-6e6d-4ddb-977e-a288d5060303.png");}
+.container .heroes .hero:nth-child(6) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885415-b09a0a51-ae8c-4753-812d-4c007fcb47c0.png");}
+.container .heroes .hero:nth-child(7) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885418-8dcaf21b-798b-4c8e-9162-48404fe84f6f.png");}
+.container .heroes .hero:nth-child(8) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885419-a7ce7515-6834-411a-a78a-0edab672e87e.png");}
+.container .heroes .hero:nth-child(9) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885422-348e12dc-4cf5-4bb0-a5dd-d178d3922986.png");}
+.container .heroes .hero:nth-child(10) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885423-db8ad791-bfb8-4f72-9f01-43fe2466ecbf.png");}
+.container .heroes .hero:nth-child(11) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885427-fa996d8a-e6a8-4815-bdea-9c9025209a10.png");}
+.container .heroes .hero:nth-child(12) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885430-90802554-b56b-409c-9810-9f2a6b8d89b5.png");}
+.container .heroes .hero:nth-child(13) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885432-7236e60b-04f4-421e-839c-54e2710ac18a.png");}
+.container .heroes .hero:nth-child(14) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885433-db2b55ba-a5ae-4918-851e-805f053780dc.png");}
+.container .heroes .hero:nth-child(15) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885434-b2e9863b-4edb-4012-82a7-61692e6625ba.png");}
+.container .heroes .hero:nth-child(16) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885435-db7dfdce-50f0-4fff-b0bd-f648da07a4a2.png");}
+.container .heroes .hero:nth-child(17) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885437-d8731957-0b14-44d5-9aeb-531b96e9d642.png");}
+.container .heroes .hero:nth-child(18) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885438-95e8c504-837c-4d54-9f13-ecb3396418f8.png");}
+.container .heroes .hero:nth-child(19) .image{background-image: url("https://user-images.githubusercontent.com/92082361/140885442-82e455e1-ad7b-450c-b7e4-d7808c5ef1c4.png");}
+
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .logo img {
+  width: 100%;
+}
